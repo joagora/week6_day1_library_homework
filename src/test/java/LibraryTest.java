@@ -48,5 +48,15 @@ public class LibraryTest {
         assertEquals(false, library1.checkIfSpaceInBookCollection());
     }
 
+    @Test
+    public void doesNotAddIfNoSpace(){
+        library1.addBook(book1);
+        library1.addBook(book2);
+        library1.addBook(book3);
+        library1.addBook(book4);
+        library1.addBook(book5);
+        assertEquals(4, library1.getBookCollectionCount());
+    }
+
 
 }

@@ -16,7 +16,12 @@ public class Library {
     }
 
     public void addBook(Book book){
-        this.bookCollection.add(book);
+        if (checkIfSpaceInBookCollection() == false){
+            return;
+        } else {
+            this.bookCollection.add(book);
+        }
+
     }
 
     public int getCapacity(){
@@ -30,4 +35,5 @@ public class Library {
             return false;
         }
     }
+
 }
