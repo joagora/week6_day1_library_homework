@@ -503,9 +503,26 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.BorrowerTest.canGetBookCollection">
+  <component name="RunManager" selected="JUnit.BorrowerTest.canAddBook">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration name="BorrowerTest.canAddBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="library_test" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="BorrowerTest" />
+      <option name="METHOD_NAME" value="canAddBook" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
     </configuration>
     <configuration name="BorrowerTest.canGetBookCollection" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="library_test" />
@@ -548,23 +565,6 @@
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="LibraryTest" />
       <option name="METHOD_NAME" value="canGetCapacity" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
-    <configuration name="LibraryTest.checksIfCanAcceptBook" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="library_test" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="LibraryTest" />
-      <option name="METHOD_NAME" value="checksIfCanAcceptBook" />
       <option name="TEST_OBJECT" value="method" />
       <option name="VM_PARAMETERS" value="-ea" />
       <option name="PARAMETERS" />
@@ -632,18 +632,18 @@
     </configuration>
     <list>
       <item itemvalue="JUnit.LibraryTest.canGetCapacity" />
-      <item itemvalue="JUnit.LibraryTest.checksIfCanAcceptBook" />
       <item itemvalue="JUnit.LibraryTest.canCheckIfSpaceForBook" />
       <item itemvalue="JUnit.LibraryTest.doesNotAddIfNoSpace" />
       <item itemvalue="JUnit.BorrowerTest.canGetBookCollection" />
+      <item itemvalue="JUnit.BorrowerTest.canAddBook" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.BorrowerTest.canAddBook" />
         <item itemvalue="JUnit.BorrowerTest.canGetBookCollection" />
         <item itemvalue="JUnit.LibraryTest.doesNotAddIfNoSpace" />
         <item itemvalue="JUnit.LibraryTest.canCheckIfSpaceForBook" />
         <item itemvalue="JUnit.LibraryTest.canGetCapacity" />
-        <item itemvalue="JUnit.LibraryTest.checksIfCanAcceptBook" />
       </list>
     </recent_temporary>
   </component>
