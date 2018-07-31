@@ -7,7 +7,7 @@ public class Library {
 
 
     public Library(int capacity){
-        this.bookCollection = new ArrayList<Book>();
+        this.bookCollection = new ArrayList<>();
         this.capacity = capacity;
     }
 
@@ -36,11 +36,11 @@ public class Library {
         }
     }
 
-    public void removeBookFromCollection(Book book){
-        if (getBookCollectionCount() > 0){
-            this.bookCollection.remove(book);
+    public Book removeBookFromCollection(){
+        if (getBookCollectionCount() <= 0){
+            return null;
         } else {
-            return;
+            return this.bookCollection.remove(0);
         }
     }
 

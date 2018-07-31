@@ -15,4 +15,12 @@ public class Borrower {
     public void addBook(Book book){
         this.bookCollection.add(book);
     }
+
+    public void borrowBook(Library library){
+        if (library.getBookCollectionCount() > 0){
+            Book removedBook = library.removeBookFromCollection();
+            this.bookCollection.add(removedBook);
+
+        }
+    }
 }
