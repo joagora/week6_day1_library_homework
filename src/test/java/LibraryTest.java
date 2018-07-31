@@ -7,10 +7,19 @@ public class LibraryTest {
 
     Library library1;
     Book book1;
+    Book book2;
+    Book book3;
+    Book book4;
+    Book book5;
+
     @Before
     public void before(){
-        library1 = new Library();
+        library1 = new Library(4);
         book1 = new Book();
+        book2 = new Book();
+        book3 = new Book();
+        book4 = new Book();
+        book5 = new Book();
     }
 
     @Test
@@ -23,4 +32,10 @@ public class LibraryTest {
         library1.addBook(book1);
         assertEquals(1, library1.getBookCollectionCount());
     }
+
+    @Test
+    public void canGetCapacity(){
+        assertEquals(4, library1.getCapacity());
+    }
+
 }
