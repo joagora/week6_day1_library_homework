@@ -10,7 +10,7 @@ public class BorrowerTest {
     @Before
     public void before(){
         borrower1 = new Borrower();
-        book1 = new Book();
+        book1 = new Book(GenreType.COMEDY);
         library1 = new Library(4);
     }
 

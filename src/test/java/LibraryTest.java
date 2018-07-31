@@ -15,11 +15,11 @@ public class LibraryTest {
     @Before
     public void before(){
         library1 = new Library(4);
-        book1 = new Book();
-        book2 = new Book();
-        book3 = new Book();
-        book4 = new Book();
-        book5 = new Book();
+        book1 = new Book(GenreType.THRILLER);
+        book2 = new Book(GenreType.DRAMA);
+        book3 = new Book(GenreType.THRILLER);
+        book4 = new Book(GenreType.COMEDY);
+        book5 = new Book(GenreType.COMEDY);
     }
 
     @Test
