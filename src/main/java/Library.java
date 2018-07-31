@@ -36,4 +36,12 @@ public class Library {
         }
     }
 
+    public void removeBookFromCollection(Book book){
+        if (getBookCollectionCount() > 0){
+            this.bookCollection.remove(book);
+        } else {
+            return;
+        }
+    }
+
 }
