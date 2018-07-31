@@ -22,4 +22,12 @@ public class Library {
     public int getCapacity(){
         return this.capacity;
     }
+
+    public boolean checkIfSpaceInBookCollection(){
+        if (getBookCollectionCount() < this.capacity) {
+            return true;
+        } else {
+            return false;
+        }
+    }
 }

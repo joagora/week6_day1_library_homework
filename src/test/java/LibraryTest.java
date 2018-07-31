@@ -38,4 +38,15 @@ public class LibraryTest {
         assertEquals(4, library1.getCapacity());
     }
 
+    @Test
+    public void canCheckIfSpaceForBook(){
+        library1.addBook(book1);
+        library1.addBook(book2);
+        library1.addBook(book3);
+        library1.addBook(book4);
+        library1.addBook(book5);
+        assertEquals(false, library1.checkIfSpaceInBookCollection());
+    }
+
+
 }
